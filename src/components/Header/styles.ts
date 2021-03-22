@@ -1,8 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   background: #c72828;
-  padding: 30px 0;
+
+  padding: 3rem 2rem;
 
   header {
     width: 1280px;
@@ -13,6 +14,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     nav {
+      padding: 0 10rem;
       div {
         button {
           font-weight: 600;
